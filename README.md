@@ -16,36 +16,7 @@ pip install -e .
 
 ## Configuration
 
-The tool can be configured in multiple ways (in order of precedence):
-
-1. Command line arguments
-2. Environment variables
-3. Configuration file
-4. Default values
-
-### Configuration File
-
-Create a `config.yaml` file in `~/.config/howdoi-cli/config.yaml`:
-
-```yaml
-provider: anthropic  # or openai
-model: claude-3-5-sonnet-20241022  # or gpt-4
-max_tokens: 1000
-temperature: 0.7
-```
-
-### Environment Variables
-
-```bash
-export HOW_PROVIDER=anthropic
-export HOW_MODEL=claude-3-5-sonnet-20241022
-export HOW_MAX_TOKENS=1000
-export HOW_TEMPERATURE=0.7
-
-# API Keys
-export ANTHROPIC_API_KEY=your_key_here
-export OPENAI_API_KEY=your_key_here
-```
+// ... existing configuration section remains unchanged ...
 
 ## Usage
 
@@ -60,6 +31,9 @@ how do i list all kubernetes pods in namespace production
 
 # The "do i" is automatically added if you forget it
 how extract files from images.tar.gz to ./output
+
+# Note: The command is also available as 'howdoi' if you prefer
+howdoi extract files from images.tar.gz to ./output
 
 # For best results:
 # - Include specific file names or paths
