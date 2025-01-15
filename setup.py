@@ -19,7 +19,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "how=how.cli:main",
+            "how=howdoi.cli:main",
         ],
     },
     classifiers=[

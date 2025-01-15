@@ -1,4 +1,4 @@
-# how/providers/__init__.py
+# howdoi/providers/__init__.py
 
 from .base import BaseProvider
 from .anthropic import AnthropicProvider

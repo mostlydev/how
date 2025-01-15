@@ -8,7 +8,7 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.config_dir = Path(os.getenv("XDG_CONFIG_HOME", Path.home() / ".config")) / "how"
+        self.config_dir = Path(os.getenv("XDG_CONFIG_HOME", Path.home() / ".config")) / "howdoi"
         self.config_file = self.config_dir / "config.yaml"
         self.load_config()
 
