@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="howdoi-cli",
-    version="0.1.0",
+    version="0.2.0",
     author="Wojtek Grabski",
     author_email="mostlydev@mostlydev.com",
     description="AI-powered CLI tool for shell commands",
