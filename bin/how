@@ -5,7 +5,7 @@ import sys
 # Add the parent directory to Python path so we can find the 'how' package
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from how.cli import main
+from howdoi.cli import main
 
 if __name__ == "__main__":
     sys.exit(main())

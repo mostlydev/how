@@ -1,4 +1,4 @@
-# How CLI
+# How Do I CLI
 
 A simple CLI tool that explains how to use shell commands using AI models.
 
@@ -10,7 +10,7 @@ pip install howdoi-cli
 
 # From source
 git clone https://github.com/mostlydev/howdoi-cli
-cd how
+cd howdoi-cli
 pip install -e .
 ```
 
