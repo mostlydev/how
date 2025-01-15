@@ -53,16 +53,27 @@ export OPENAI_API_KEY=your_key_here
 # Get help
 how --help
 
-# Basic usage
-how do i extract files from a tar archive
-how do i expose ports in docker
-how do i list all kubernetes pods
+# Basic usage - be specific about what you want to achieve
+how do i extract all files from a tar.gz archive to current directory
+how do i expose port 8080 for a nginx docker container
+how do i list all kubernetes pods in namespace production
 
 # The "do i" is automatically added if you forget it
-how extract files from tar
+how extract files from images.tar.gz to ./output
+
+# For best results:
+# - Include specific file names or paths
+# - Mention target directories or destinations
+# - Specify ports, namespaces, or other relevant parameters
+# - Include format or version information when relevant
+
+# Examples of specific queries:
+how do i find all python files modified in last 7 days
+how do i create a cronjob that runs every monday at 8am
+how do i configure nginx to redirect http to https on port 443
 
 # Specify provider/model
-how --provider openai --model gpt-4 do i extract files from a tar archive
+how --provider openai --model gpt-4 do i extract files from data.tar.gz
 ```
 
 ## Development
